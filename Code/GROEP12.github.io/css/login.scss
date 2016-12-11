@@ -99,6 +99,35 @@ width:200px;
 display:block;
 float:right;
 font-size:15px;
+color:black;
+
+}
+
+.navigation {
+
+position:absolute;
+bottom:30px;
+left:0;
+right:0;
+height:50px;
+
+
+}
+
+.about {
+
+margin-top:150px;
+color:black;
+
+}
+
+.navigation a:link, a:visited {
+
+
+background-color: $ahsd;
+padding:5px;
+text-decoration: none;
+text-align: center;
 color:white;
 
 }

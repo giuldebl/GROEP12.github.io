@@ -88,3 +88,8 @@ title   : "We Fish"
 		S454.8,171.1,455.6,172.2z"/>
 </g>
 </svg>
+<a href="start.html" class="link">Ontdek</a>
+
+{% for post in site.posts %}
+{{ post.title }}{{ post.excerpt }}
+{% endfor %}
